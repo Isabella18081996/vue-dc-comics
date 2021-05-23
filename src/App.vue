@@ -2,7 +2,9 @@
   <div id="app">
 
     <HeaderComp />
+    <JumbotronComp />
     <MainComp />
+    <SectionShopComp />
     <FooterComp />
 
 
@@ -12,7 +14,9 @@
 <script>
 import FooterComp from './components/FooterComp.vue'
 import HeaderComp from './components/HeaderComp.vue'
+import JumbotronComp from './components/JumbotronComp.vue'
 import MainComp from './components/MainComp.vue'
+import SectionShopComp from './components/SectionShopComp.vue'
 
 
 
@@ -22,7 +26,10 @@ export default {
   components: {
     HeaderComp,
     MainComp,
-    FooterComp
+    FooterComp,
+    SectionShopComp,
+    JumbotronComp,
+
   
     
   }

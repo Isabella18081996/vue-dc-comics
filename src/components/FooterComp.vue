@@ -114,7 +114,7 @@ footer{
       font-weight: normal;
       &:hover{
         color:#FFFFFF;
-              text-shadow: 1px 1px 10px #469beb
+        text-shadow: 1px 1px 10px #469beb
 
       }
     };
